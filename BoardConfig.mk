@@ -23,6 +23,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := toco_defconfig
+TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
